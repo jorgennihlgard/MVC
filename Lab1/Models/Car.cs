@@ -7,7 +7,8 @@ namespace Lab1.Models
 {
     public class Car
     {
-        public int CarID { get; set; }
+        public int CarId { get; set; }
         public string Brand { get; set; }
+
     }
 }

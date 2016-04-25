@@ -19,7 +19,7 @@ namespace Lab1.Controllers
         // GET: Car/Details/5
         public ActionResult Details(int id)
         {
-            var car = new Car {Brand = "Ford", CarID = id};
+            var car = new Car {Brand = "Ford", CarId = id};
                 return View(car);   
         }
 

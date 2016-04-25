@@ -9,12 +9,13 @@ namespace Lab1.Controllers
     public class SelfController : Controller
     {
         // GET: Self
-        public ActionResult B2B()
+        public ActionResult B2B(string id)
         {
+            ViewBag.id = id;
             return View();
         }
 
-        public ActionResult B2C()
+        public ActionResult B2C(string id)
         {
             return View();
         }
